@@ -1,5 +1,9 @@
-@if (isLoggedIn) {
-  <h2>Welcome, {{ username }}</h2>
-} @else {
-  <h1>Log In</h1>
-}
+
+<section>
+  @if (isLoggedIn) {
+    <h2>Welcome back {{ username }}</h2>
+    <p>your Logged In!</p>
+    } @else {
+      <h1>You are not logged</h1>
+    }
+</section>
