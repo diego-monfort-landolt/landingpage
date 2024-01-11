@@ -8,5 +8,23 @@ import { Component } from '@angular/core';
   styleUrl: './game.component.css'
 })
 export class GameComponent {
+  games = [
+    {
+      id: 1,
+      name: 'Black Ops I'
+    },
+    {
+      id: 2,
+      name: 'Black Ops II'
+    },
+    {
+      id: 3,
+      name: 'Black Ops III'
+    },
+    {
+      id: 4,
+      name: 'Fortnite'
+    },
+  ]
 
 }

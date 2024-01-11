@@ -1,1 +1,7 @@
-<p>game works!</p>
+<ul> <h2>New Games: </h2>
+  @for (game of games; track game.id) { 
+   
+    <li>{{ game.name }}</li>
+
+  }
+</ul>
