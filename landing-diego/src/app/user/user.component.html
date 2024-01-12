@@ -2,12 +2,17 @@
   @if (isLoggedIn) {
     <div class="login-cont">
       <h2>Welcome back {{ username }}</h2>
+
       <img
       (click)="greet()"
-       src="https://github.com/diego-monfort-landolt.png" />
+       src="https://github.com/diego-monfort-landolt.png" 
+       alt="image from diego landolt monfort"
+       />
+
     </div>
     <app-game />
     } @else {
+
       <h1>You are not logged</h1>
       <button (click)="isLoggedIn = true">Log In</button>
     }

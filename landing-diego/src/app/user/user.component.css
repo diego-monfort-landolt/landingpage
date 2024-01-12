@@ -19,6 +19,7 @@ img {
   border: 1px solid blue;
   box-shadow: 0 0 10px red;
   object-fit: cover;
+  cursor: pointer;
 }
 button {
   padding: 10px;

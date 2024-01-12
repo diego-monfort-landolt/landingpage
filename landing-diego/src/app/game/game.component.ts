@@ -10,7 +10,9 @@ import { UserComponent } from '../user/user.component';
   styleUrl: './game.component.css'
 })
 export class GameComponent {
-  @Input() username = 'DiegoDev';
+
+  @Input() name = 'Diego';
+  
   games = [
     {
       id: 1,
