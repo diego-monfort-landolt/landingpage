@@ -4,3 +4,21 @@ section {
   padding-top: 20px;
   font-size: 20px;
 }
+.login-cont {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: center;
+}
+img {
+  border-radius: 50%;
+
+  width: 60px;
+  height: 60px;
+  margin-right: 10px;
+  border: 1px solid blue;
+  box-shadow: 0 0 10px red;
+  object-fit: cover;
+  
+
+}
