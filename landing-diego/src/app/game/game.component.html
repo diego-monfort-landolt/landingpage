@@ -1,7 +1,8 @@
 <h3>The favorit Games from {{ name }}</h3>
+
 <ul>
    <h2>New Games: </h2>
-   
+
      @for (game of games; track game.id) { 
       <li>{{ game.name }}</li>
   }
