@@ -19,6 +19,14 @@ img {
   border: 1px solid blue;
   box-shadow: 0 0 10px red;
   object-fit: cover;
-  
+}
+button {
+  padding: 10px;
+  border: 1px solid red;
+  border-radius: 15px 0 15px 0;
+  letter-spacing: 2px;
+  cursor: pointer;
 
+  background-color: blueviolet;
+  box-shadow: 0 0 10px red;
 }
