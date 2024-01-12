@@ -1,7 +1,6 @@
 import { Component } from '@angular/core';
 import { GameComponent } from '../game/game.component';
 import { CommonModule } from '@angular/common';
-import { animate } from '@angular/animations';
 
 @Component({
   selector: 'app-user',
