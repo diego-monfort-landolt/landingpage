@@ -31,5 +31,4 @@ export class GameComponent {
       name: 'Fortnite'
     },
   ]
-
 }
