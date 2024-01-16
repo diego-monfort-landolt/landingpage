@@ -1,0 +1,39 @@
+.card-container {
+  width: 200px;
+  height: 200px;
+  margin: 10px auto;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border: 1px solid red;
+  padding: 13px;
+  transform: rotate(40deg);
+  box-shadow: 0 0 10px red;
+  
+}
+
+.card {
+  width: 200px;
+  height: 200px;
+  border: 1px solid blue;
+  padding: 10px;
+  transform: rotate(-40deg);
+  background-color: #000;
+  box-shadow: 0 0 10px red;
+  
+}
+
+@keyframes myAnim {
+	0%,
+	50%,
+	100% {
+		opacity: 1;
+	}
+
+	25%,
+	75% {
+		opacity: .3;
+	}
+}

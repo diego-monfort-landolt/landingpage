@@ -9,8 +9,11 @@
        />
     </div>
     <app-game />
+    <app-card />
+
     <button (click)="isLoggedIn = false">Log Out</button>
     } @else {
+
       <h1>You are not logged</h1>
       <button (click)="isLoggedIn = true">Log In</button>
     }
