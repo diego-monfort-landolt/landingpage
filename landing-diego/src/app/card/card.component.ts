@@ -11,4 +11,5 @@ import { Component } from '@angular/core';
 export class CardComponent {
   title = 'Welcome';
   text = 'I learn Angular 💟';
+  description = 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum'
 }
