@@ -9,6 +9,7 @@ import { UserComponent } from '../user/user.component';
   templateUrl: './game.component.html',
   styleUrl: './game.component.css'
 })
+
 export class GameComponent {
 
   @Input() name = 'Diego';
