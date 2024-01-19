@@ -10,6 +10,7 @@ import { CardComponent } from '../card/card.component';
   templateUrl: './user.component.html',
   styleUrl: './user.component.css'
 })
+
 export class UserComponent {
   username = 'DiegoDev';
   isLoggedIn = false;
